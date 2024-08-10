@@ -5,10 +5,9 @@
         <title>my website</title>
         <style>
             img {
-                width: 200px;
+                width: 350px;
+                height: 350px;
                 border-radius: 10px;
-                float: left;
-                margin-right: 10px;
             }
             .huh {
                 color: red;
@@ -23,10 +22,48 @@
         </style>
     </head>
     <body>
+        <!------->
         <article>
-            <img src="images/image.jpg" />
+            <header>
+                <h1>These go places</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#footer">go</a></li>
+                        <li><a href="#footer">to</a></li>
+                        <li><a href="#footer">footer</a></li>
+                    </ul>
+                </nav>
+            </header>
+
             <h1>thanks for visiting my website</h1>
+            <img src="images/image.jpg" />
             <p class="huh">John Pedraza</p>
+
+            <section>
+                <h2>I think this is best practice.</h2>
+                <p>Adding this here completes this example.</p>
+                <section>
+                    <h3>more depth here</h3>
+                    <p>Adding this here completes this example.</p>
+                </section>
+            </section>
+
+            <section>
+                <h2 title="your actions have consequences">
+                    you may hover over this
+                </h2>
+                <p>Adding this here completes this example.</p>
+            </section>
+
+            <aside>
+                <h1>a side</h1>
+                <p>one of the many total sides</p>
+            </aside>
+
+            <footer id="footer">
+                <p>some text in a footer</p>
+                <p><small>&copy;opyright 2001</small></p>
+            </footer>
         </article>
     </body>
 </html>

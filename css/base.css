@@ -1,0 +1,17 @@
+@charset "utf-8";
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.huh {
+    color: red;
+    font-weight: bold;
+}
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: brown;
+}
+body {
+    background-color: burlywood;
+}
